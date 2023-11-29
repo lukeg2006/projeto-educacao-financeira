@@ -1,0 +1,474 @@
+@font-face {
+  font-family: inter light;
+  src: url(../font/Inter-Light.ttf);
+}
+@font-face {
+  font-family: inter regular;
+  src: url(../font/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: inter medium;
+  src: url(../font/Inter-Medium.ttf);
+}
+@font-face {
+  font-family: inter semibold;
+  src: url(../font/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: inter bold;
+  src: url(../font/Inter-Bold.ttf);
+}
+/*CONTAINER PRINCIPAL*/
+.pai{
+  width: 100%;
+  background: gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/*BARRA INICIAL EDUCAÇÃO FINANCEIRA*/
+.filho1{
+  width: 100%;
+  height: 6vh;
+  background: #179114;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.barra-inicial{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.barra-inicial h1 a{
+  color: white;
+  font-family: inter bold;
+  font-size: 60%;
+  text-decoration: none;
+  text-align: center;
+}
+/*LOGO*/
+.filho2{
+  width: 100%;
+  height: 14vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  width: 30%;
+}
+/*MENU*/
+.filho3{
+  width: 100%;
+  height: 10vh;
+  background: #D2D1D1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: black;
+  border-style: solid;
+  border-width: 2px;
+}
+.menu{
+  width: 30%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu h1 a{
+  color: black;
+  font-family: inter semibold;
+  font-size: 50%;
+  text-decoration: none;
+  text-align: center;
+}
+/*BANNER PRINCIPAL*/
+.filho4{
+  width: 100%;
+  background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filho4 img{
+  width: 100%;
+}
+.titulo-banner{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  padding-top: 6vh;
+  padding-bottom: 10vh;
+}
+.titulo-banner h1{
+  width: 80%;
+  color: white;
+  font-family: inter bold;
+  font-size: 250%;
+  text-align: center;
+}
+.titulo-banner h2{
+  width: 70%;
+  height: 2vh;
+  color: white;
+  font-family: inter regular;
+  font-size: 200%;
+  text-align: center;
+  margin: 2vh; 
+}
+/*CONTEÚDO PRINCIPAL*/
+.filho5{
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteudo{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  background-color: white;
+}
+.titulo-conteudo{
+  width: 80%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1%;
+}
+.titulo-conteudo h1{
+  width: 100%;
+  color: black;
+  font-family: inter bold;
+  font-size: 200%;
+  text-align: center;
+}
+.componente1{
+  width: 95vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin: 1vh;
+  border-color: #179114 ;
+  border-style: solid;
+  border-radius: 10px;
+  padding-top: 4vh;
+}
+.icone{
+  width: 10vh;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+}
+.icone img{
+  width: 100%;
+}
+.titulo-componente{
+  width: 73vh;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+}
+.titulo-componente h1{
+  color: black;
+  font-family: inter medium;
+  font-size: 25px;
+  text-align: center;
+}
+.conteudo-componente{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1vh;
+  padding-bottom: 3vh;
+}
+.conteudo-componente p{
+  color: black;
+  font-family: inter regular;
+  font-size: 24px;
+}
+.componente2{
+  width: 46vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin: 1vh;
+  border-color: #179114 ;
+  border-style: solid;
+  border-radius: 10px;
+  padding-top: 4vh;
+}
+.icone2{
+  width: 10vh;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh;
+}
+.icone2 img{
+  width: 100%;
+}
+.titulo-componente2{
+  width: 90%;
+  height: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh;
+}
+.titulo-componente2 h1{
+  color: black;
+  font-family: inter medium;
+  font-size: 25px;
+  text-align: center;
+}
+.conteudo-componente2{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1vh;
+}
+.conteudo-componente2 p{
+  color: black;
+  font-family: inter regular;
+  font-size: 20px;
+}
+/*BANNER INFERIOR*/
+.filho6{
+  width: 100%;
+  background: purple;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.filho6 img{
+  width: 100%;
+}
+.titulo-banner-inferior{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  padding-top: 1vh;
+  padding-bottom: 10vh;
+}
+.titulo-banner-inferior h1{
+  width: 80%;
+  color: white;
+  font-family: inter bold;
+  font-size: 250%;
+  text-align: center;
+}
+.botao{
+  width: 100px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  padding-top: 20vh;
+}
+.btn{
+  width: 500px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: #179114;
+  background-color: #179114;
+}
+.btn a{
+  text-decoration: none; 
+  font-family: inter medium;
+  color: white;
+  font-size: 200%;
+}
+/*ESPAÇAMENTO INFERIOR*/
+.filho7{
+  width: 100%;
+  height: 8vh;
+  background: white;
+}
+/*RODAPÉ*/
+.filho8{
+  width: 100%;
+  height: 34vh;
+  background: #179114;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.icone-rede-social{
+  width: 80%;
+  height: 6vh;
+  background-color: transparent;
+  margin: 6vh 0vh 3vh 0vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icone-rede-social img{
+  width: 4%;
+}
+.endereco{
+  width: 70%;
+  height: 5vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+}
+.endereco h1{
+  font-size: 3vh;
+  font-family: inter light;
+  color: white;
+}
+.desenvolvedor{
+  width: 70%;
+  height: 5vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15vh;
+}
+.desenvolvedor h1{
+  font-size: 3vh;
+  font-family: inter light;
+  color: white; 
+}
+/*HQ*/
+.filho9{
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+}
+.fundo-hq{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #48D07F;
+  padding: 3vh;
+  border-color: black;
+  border-style: solid;
+  border-width: 3x;
+}
+.titulo-hq{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulo-hq h1{
+  font-family: inter bold;
+  font-size: 40px;
+}
+.quadrado{
+  width: 43vh;
+  display: flex;
+  justify-content: center;
+  margin: 1vh;
+}
+.quadrado img{
+  width: 100%;
+}
+.retangulo{
+  width: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh;
+}
+.retangulo img{
+  width: 100%;
+}
+
+@media(max-width: 760px){
+  .filho7{
+  height: 5vh;
+  }
+  .filho8{
+  height: 30vh;
+  }
+  .barra-inicial h1 a{
+    font-size: 16px;
+  }
+  .menu h1 a{
+    font-size: 13px;
+  }
+  .titulo-banner h1{
+    font-size: 22px;
+  }
+  .titulo-banner h2{
+    font-size: 18px;
+    height: 1vh;
+  }
+  .titulo-conteudo h1{
+    font-size: 25px;
+  }
+  .titulo-componente h1,.titulo-componente2 h1{
+    font-size: 22px;
+  }
+  .conteudo-componente p{
+    font-size: 20px;
+  }
+  .titulo-banner-inferior h1{
+    font-size: 28px;
+  }
+  .btn{
+    width: 250px;
+    height: 35px;
+  }
+  .btn a{
+    font-size: 18px;
+  }
+  .icone-rede-social img{
+    width: 5%;
+  }
+  .endereco,.desenvolvedor{
+    width: 85%;
+  }
+  .endereco h1,.desenvolvedor h1{
+    text-align: center;
+    font-size: 15px;
+  }
+  .fundo-hq{
+    width: 71%;
+  }
+}
