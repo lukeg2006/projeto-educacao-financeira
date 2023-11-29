@@ -420,11 +420,16 @@
 }
 
 @media(max-width: 760px){
+  .filho1,.filho2,.filho3,.filho4,.filho5,.filho6,.filho9{
+    width: 100%;
+  }
   .filho7{
-  height: 5vh;
+    width: 100%;
+    height: 5vh;
   }
   .filho8{
-  height: 30vh;
+    width: 100%;
+    height: 30vh;
   }
   .barra-inicial h1 a{
     font-size: 16px;
