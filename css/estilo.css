@@ -535,12 +535,12 @@
     font-size: 18px;
   }
   .componente1{
-    width: 39vh;
+    width: 370px;
     padding-top: 1vh;
   }
   .componente2{
-    width: 18.5vh;
-    margin: 0.5vh;
+    width: 180px;
+    margin: 3px;
     padding-top: 1vh;
   }
   .titulo-componente h1,.titulo-componente2 h1{
