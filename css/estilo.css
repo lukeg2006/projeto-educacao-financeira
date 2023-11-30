@@ -29,6 +29,7 @@
 /*BARRA INICIAL EDUCAÇÃO FINANCEIRA*/
 .filho1{
   width: 100%;
+  height: 6vh;
   background: #179114;
   display: flex;
   justify-content: center;
@@ -119,7 +120,6 @@
 }
 .titulo-banner h2{
   width: 70%;
- 
   color: white;
   font-family: inter regular;
   font-size: 200%;
@@ -351,7 +351,6 @@
 }
 .desenvolvedor{
   width: 70%;
-  height: 5vh;
   background-color: transparent;
   display: flex;
   justify-content: center;
@@ -479,15 +478,15 @@
 @media(max-width: 480px){
   .filho1{
     width: 100%;
-    height: 6vh;
+    height: 4vh;
   }
   .filho3{
     width: 100%;
-    height: 8vh;
+    height: 6vh;
   }
   .filho4 {
     width: 100%;
-    height: 30vh;
+    height: 19vh;
   }
   .filho4 img {
     width: 100%;
@@ -495,7 +494,7 @@
   }
   .filho6{
     width: 100%;
-    height: 30vh;
+    height: 22vh;
   }
   .filho6 img{
     height: 100%;
@@ -505,11 +504,11 @@
     height: 5vh;
   }
   .logo img{
-    width: 35%;
+    width: 40%;
   }
   .filho8{
     width: 100%;
-    height: 30vh;
+    height: 16vh;
   }
   .barra-inicial h1 a{
     font-size: 13px;
@@ -517,30 +516,50 @@
   .menu h1 a{
     font-size: 9.1px;
   }
+  .titulo-banner{
+    padding-bottom: 8vh;
+  }
   .titulo-banner h1{
     font-size: 16px;
+    margin-bottom: 2vh;
   }
   .titulo-banner h2{
     font-size: 13px;
-    height: 0.2vh;
+    margin: 0.4vh;
   }
   .titulo-conteudo h1{
-    font-size: 20px;
+    font-size: 18px;
   }
   .componente1{
     width: 68vh;
+    padding-top: 1vh;
   }
   .componente2{
-    width: 32.75vh;
+    width: 20vh;
+    margin: 0.5vh;
+    padding-top: 1vh;
   }
   .titulo-componente h1,.titulo-componente2 h1{
     font-size: 18px;
   }
+  .conteudo-componente,.conteudo-componente2{
+    width: 94%;
+  }
   .conteudo-componente p,.conteudo-componente2 p{
     font-size: 16px;
   }
+  .icone,.titulo-componente{
+    
+    height: 6vh;
+  }
+  .icone2{
+    height: 5vh;
+  }
   .titulo-banner-inferior h1{
     font-size: 20px;
+  }
+  .botao{
+    padding-top: 6vh;
   }
   .btn{
     width: 250px;
@@ -549,15 +568,26 @@
   .btn a{
     font-size: 18px;
   }
+  .icone-rede-social{
+    margin: 1.5vh 0 1vh 0;
+  }
   .icone-rede-social img{
     width: 5%;
   }
   .endereco,.desenvolvedor{
-    width: 85%;
+    width: 80%;
+  }
+  .endereco{
+    height: 3;
+    margin-top: 0vh;
+    margin-bottom: 1vh;
+  }
+  .desenvolvedor{
+    padding-bottom: 1vh;
   }
   .endereco h1,.desenvolvedor h1{
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
   }
   .fundo-hq{
     width: 71%;
