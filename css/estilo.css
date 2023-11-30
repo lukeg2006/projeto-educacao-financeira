@@ -84,6 +84,9 @@
   align-items: center;
   justify-content: center;
 }
+.menu h1{
+  text-align: center;
+}
 .menu h1 a{
   color: black;
   font-family: inter semibold;
@@ -486,7 +489,7 @@
   }
   .filho4 {
     width: 100%;
-    height: 19vh;
+    height: 18vh;
   }
   .filho4 img {
     width: 100%;
@@ -508,7 +511,7 @@
   }
   .filho8{
     width: 100%;
-    height: 16vh;
+    height: 14vh;
   }
   .barra-inicial h1 a{
     font-size: 13px;
@@ -535,7 +538,7 @@
     padding-top: 1vh;
   }
   .componente2{
-    width: 20vh;
+    width: 17vh;
     margin: 0.5vh;
     padding-top: 1vh;
   }
@@ -543,13 +546,12 @@
     font-size: 18px;
   }
   .conteudo-componente,.conteudo-componente2{
-    width: 94%;
+    width: 96%;
   }
   .conteudo-componente p,.conteudo-componente2 p{
     font-size: 16px;
   }
   .icone,.titulo-componente{
-    
     height: 6vh;
   }
   .icone2{
@@ -569,10 +571,10 @@
     font-size: 18px;
   }
   .icone-rede-social{
-    margin: 1.5vh 0 1vh 0;
+    margin: 0vh 0 0vh 0;
   }
   .icone-rede-social img{
-    width: 5%;
+    width: 2vh;
   }
   .endereco,.desenvolvedor{
     width: 80%;
