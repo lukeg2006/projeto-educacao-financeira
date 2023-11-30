@@ -511,7 +511,8 @@
   }
   .filho8{
     width: 100%;
-    height: 14vh;
+    height: 16vh;
+    padding-top: 2vh;
   }
   .barra-inicial h1 a{
     font-size: 13px;
@@ -534,11 +535,11 @@
     font-size: 18px;
   }
   .componente1{
-    width: 68vh;
+    width: 39vh;
     padding-top: 1vh;
   }
   .componente2{
-    width: 17vh;
+    width: 18.5vh;
     margin: 0.5vh;
     padding-top: 1vh;
   }
