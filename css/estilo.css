@@ -142,7 +142,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 2%;
+  padding-bottom: 3%;
   padding-top: 2%;
   background-color: white;
 }
@@ -417,66 +417,6 @@
 .retangulo img{
   width: 100%;
 }
-/*
-@media(max-width: 760px){
-  .filho1,.filho2,.filho3,.filho4,.filho5,.filho6,.filho9{
-    width: 100%;
-  }
-  .filho7{
-    width: 100%;
-    height: 5vh;
-  }
-  .filho8{
-    width: 100%;
-    height: 30vh;
-  }
-  .barra-inicial h1 a{
-    font-size: 16px;
-  }
-  .menu h1 a{
-    font-size: 13px;
-  }
-  .titulo-banner h1{
-    font-size: 22px;
-  }
-  .titulo-banner h2{
-    font-size: 18px;
-    height: 1vh;
-  }
-  .titulo-conteudo h1{
-    font-size: 25px;
-  }
-  .titulo-componente h1,.titulo-componente2 h1{
-    font-size: 22px;
-  }
-  .conteudo-componente p{
-    font-size: 20px;
-  }
-  .titulo-banner-inferior h1{
-    font-size: 28px;
-  }
-  .btn{
-    width: 250px;
-    height: 35px;
-  }
-  .btn a{
-    font-size: 18px;
-  }
-  .icone-rede-social img{
-    width: 5%;
-  }
-  .endereco,.desenvolvedor{
-    width: 85%;
-  }
-  .endereco h1,.desenvolvedor h1{
-    text-align: center;
-    font-size: 15px;
-  }
-  .fundo-hq{
-    width: 71%;
-  }
-}
-*/
 
 @media(max-width: 480px){
   .filho1{
@@ -517,6 +457,9 @@
   .barra-inicial h1 a{
     font-size: 13px;
   }
+  .menu{
+    height: 60%;
+  }
   .menu h1 a{
     font-size: 9.1px;
   }
@@ -535,11 +478,11 @@
     font-size: 18px;
   }
   .componente1{
-    width: 370px;
+    width: 330px;
     padding-top: 1vh;
   }
   .componente2{
-    width: 180px;
+    width: 160px;
     margin: 3px;
     padding-top: 1vh;
   }
@@ -572,7 +515,7 @@
     font-size: 18px;
   }
   .icone-rede-social{
-    margin: 0vh 0 0vh 0;
+    margin: 0 0 1vh 0;
   }
   .icone-rede-social img{
     width: 2vh;
@@ -593,6 +536,19 @@
     font-size: 10px;
   }
   .fundo-hq{
-    width: 71%;
+    width: 88%;
+    padding: 3px 3px 25px 3px;
+  }
+  .titulo-hq h1{
+    font-size: 25px;
+  }
+  .quadrado{
+    width: 146px;
+    margin: 2px;
+
+  }
+  .retangulo{
+    width: 296px;
+    margin: 2px;
   }
 }
