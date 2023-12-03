@@ -21,7 +21,7 @@
 /*CONTAINER PRINCIPAL*/
 .pai{
   width: 100%;
-  background: gray;
+  background: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -43,7 +43,7 @@
 }
 .barra-inicial h1 a{
   color: white;
-  font-family: inter bold;
+  font-family: inter bold,helvetica,arial;
   font-size: 60%;
   text-decoration: none;
   text-align: center;
@@ -89,7 +89,7 @@
 }
 .menu h1 a{
   color: black;
-  font-family: inter semibold;
+  font-family: inter semibold,helvetica,arial;
   font-size: 50%;
   text-decoration: none;
   text-align: center;
@@ -97,7 +97,7 @@
 /*BANNER PRINCIPAL*/
 .filho4{
   width: 100%;
-  background: blue;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,14 +117,14 @@
 .titulo-banner h1{
   width: 80%;
   color: white;
-  font-family: inter bold;
+  font-family: inter bold,helvetica,arial;
   font-size: 250%;
   text-align: center;
 }
 .titulo-banner h2{
   width: 70%;
   color: white;
-  font-family: inter regular;
+  font-family: inter regular,helvetica,arial;
   font-size: 200%;
   text-align: center;
   margin: 2vh; 
@@ -157,7 +157,7 @@
 .titulo-conteudo h1{
   width: 100%;
   color: black;
-  font-family: inter bold;
+  font-family: inter bold,helvetica,arial;
   font-size: 200%;
   text-align: center;
 }
@@ -195,7 +195,7 @@
 }
 .titulo-componente h1{
   color: black;
-  font-family: inter medium;
+  font-family: inter medium,helvetica,arial;
   font-size: 25px;
   text-align: center;
 }
@@ -209,7 +209,7 @@
 }
 .conteudo-componente p{
   color: black;
-  font-family: inter regular;
+  font-family: inter regular,helvetica,arial;
   font-size: 24px;
 }
 .componente2{
@@ -245,7 +245,7 @@
 }
 .titulo-componente2 h1{
   color: black;
-  font-family: inter medium;
+  font-family: inter medium,helvetica,arial;
   font-size: 25px;
   text-align: center;
 }
@@ -259,13 +259,13 @@
 }
 .conteudo-componente2 p{
   color: black;
-  font-family: inter regular;
+  font-family: inter regular,helvetica,arial;
   font-size: 20px;
 }
 /*BANNER INFERIOR*/
 .filho6{
   width: 100%;
-  background: purple;
+  background: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -286,7 +286,7 @@
 .titulo-banner-inferior h1{
   width: 80%;
   color: white;
-  font-family: inter bold;
+  font-family: inter bold,helvetica,arial;
   font-size: 250%;
   text-align: center;
 }
@@ -306,7 +306,7 @@
 }
 .btn a{
   text-decoration: none; 
-  font-family: inter medium;
+  font-family: inter medium,helvetica,arial;
   color: white;
   font-size: 200%;
 }
@@ -349,7 +349,7 @@
 }
 .endereco h1{
   font-size: 3vh;
-  font-family: inter light;
+  font-family: inter light,helvetica,arial;
   color: white;
 }
 .desenvolvedor{
@@ -362,7 +362,7 @@
 }
 .desenvolvedor h1{
   font-size: 3vh;
-  font-family: inter light;
+  font-family: inter light,helvetica,arial;
   color: white; 
 }
 /*HQ*/
@@ -395,7 +395,7 @@
   align-items: center;
 }
 .titulo-hq h1{
-  font-family: inter bold;
+  font-family: inter bold,helvetica,arial;
   font-size: 40px;
 }
 .quadrado{
@@ -419,14 +419,30 @@
 }
 
 @media(max-width: 480px){
+  /*BARRA INICIAL*/
   .filho1{
     width: 100%;
     height: 4vh;
   }
+  .barra-inicial h1 a{
+    font-size: 13px;
+  }
+  /*LOGO*/
+  .logo img{
+    width: 40%;
+  }
+  /*MENU*/
   .filho3{
     width: 100%;
     height: 6vh;
   }
+  .menu{
+    height: 60%;
+  }
+  .menu h1 a{
+    font-size: 9.1px;
+  }
+  /*BANNER PRINCIPAL*/
   .filho4 {
     width: 100%;
     height: 18vh;
@@ -434,34 +450,6 @@
   .filho4 img {
     width: 100%;
     height: 100%;
-  }
-  .filho6{
-    width: 100%;
-    height: 22vh;
-  }
-  .filho6 img{
-    height: 100%;
-  }
-  .filho7{
-    width: 100%;
-    height: 5vh;
-  }
-  .logo img{
-    width: 40%;
-  }
-  .filho8{
-    width: 100%;
-    height: 16vh;
-    padding-top: 2vh;
-  }
-  .barra-inicial h1 a{
-    font-size: 13px;
-  }
-  .menu{
-    height: 60%;
-  }
-  .menu h1 a{
-    font-size: 9.1px;
   }
   .titulo-banner{
     padding-bottom: 8vh;
@@ -474,6 +462,7 @@
     font-size: 13px;
     margin: 0.4vh;
   }
+  /*CONTEÚDO PRINCIPAL*/
   .titulo-conteudo h1{
     font-size: 18px;
   }
@@ -501,6 +490,14 @@
   .icone2{
     height: 5vh;
   }
+  /*BANNER INFERIOR*/
+  .filho6{
+    width: 100%;
+    height: 22vh;
+  }
+  .filho6 img{
+    height: 100%;
+  } 
   .titulo-banner-inferior h1{
     font-size: 20px;
   }
@@ -514,27 +511,38 @@
   .btn a{
     font-size: 18px;
   }
+  /*ESPAÇAMENTO INFERIOR*/
+  .filho7{
+    width: 100%;
+    height: 5vh;
+  }
+  /*RODAPÉ*/
+  .filho8{
+    width: 100%;
+    height: 16vh;
+    padding-top: 2vh;
+  }
   .icone-rede-social{
     margin: 0 0 1vh 0;
   }
   .icone-rede-social img{
     width: 2vh;
   }
-  .endereco,.desenvolvedor{
-    width: 80%;
-  }
   .endereco{
+    width: 80%;
     height: 3;
     margin-top: 0vh;
     margin-bottom: 1vh;
   }
   .desenvolvedor{
+    width: 80%;
     padding-bottom: 1vh;
   }
   .endereco h1,.desenvolvedor h1{
     text-align: center;
     font-size: 10px;
   }
+  /*HQ*/
   .fundo-hq{
     width: 88%;
     padding: 3px 3px 25px 3px;
@@ -545,7 +553,6 @@
   .quadrado{
     width: 146px;
     margin: 2px;
-
   }
   .retangulo{
     width: 296px;
