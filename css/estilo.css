@@ -41,6 +41,9 @@
   align-items: center;
   justify-content: center;
 }
+.barra-inicial h1{
+  text-align: center;
+}
 .barra-inicial h1 a{
   color: white;
   font-family: inter bold,helvetica,arial;
@@ -351,6 +354,7 @@
   font-size: 3vh;
   font-family: inter light,helvetica,arial;
   color: white;
+  text-align: center;
 }
 .desenvolvedor{
   width: 70%;
@@ -364,6 +368,7 @@
   font-size: 3vh;
   font-family: inter light,helvetica,arial;
   color: white; 
+  text-align: center;
 }
 /*HQ*/
 .filho9{
@@ -468,11 +473,11 @@
     font-size: 18px;
   }
   .componente1{
-    width: 330px;
+    width: 94%;
     padding-top: 1vh;
   }
   .componente2{
-    width: 160px;
+    width: 45%;
     margin: 3px;
     padding-top: 1vh;
   }
