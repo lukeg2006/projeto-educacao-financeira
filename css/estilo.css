@@ -162,7 +162,7 @@
   text-align: center;
 }
 .componente1{
-  width: 95vh;
+  width: 45%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -213,7 +213,7 @@
   font-size: 24px;
 }
 .componente2{
-  width: 46vh;
+  width: 21.8%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -399,7 +399,7 @@
   font-size: 40px;
 }
 .quadrado{
-  width: 43vh;
+  width: 23.8%;
   display: flex;
   justify-content: center;
   margin: 1vh;
@@ -408,7 +408,7 @@
   width: 100%;
 }
 .retangulo{
-  width: 88vh;
+  width: 48.8%;
   display: flex;
   justify-content: center;
   align-items: center;
