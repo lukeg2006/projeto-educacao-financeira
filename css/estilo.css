@@ -552,11 +552,11 @@
     font-size: 25px;
   }
   .quadrado{
-    width: 146px;
+    width: 45%;
     margin: 2px;
   }
   .retangulo{
-    width: 296px;
+    width: 91%;
     margin: 2px;
   }
 }
