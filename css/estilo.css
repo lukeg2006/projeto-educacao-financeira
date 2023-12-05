@@ -474,13 +474,14 @@
     font-size: 18px;
   }
   .componente1{
-    width: 94%;
+    width: 90%;
     padding-top: 1vh;
+    margin: 1%;
   }
   .componente2{
-    width: 45%;
-    margin: 3px;
+    width: 43.5%;
     padding-top: 1vh;
+    margin: 1%;
   }
   .titulo-componente h1,.titulo-componente2 h1{
     font-size: 18px;
@@ -489,6 +490,7 @@
     width: 96%;
   }
   .conteudo-componente p,.conteudo-componente2 p{
+    width: 100%;
     font-size: 16px;
   }
   .icone,.titulo-componente{
